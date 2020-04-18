@@ -87,7 +87,7 @@ or hit enter to use the default value:
                     print("\nRemaining attempts: "+str(remaining))
 
                 if remaining == 0: continueGame = False
-                if cc == 4:
+                if cc == length:
                     continueGame = False
                     won = True
 
